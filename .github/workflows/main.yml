@@ -25,7 +25,7 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://kavi-test.crm6.dynamics.com/'
+  ENVIRONMENT_URL: 'https://kavi-dev.crm6.dynamics.com/'
   CLIENT_ID: '7a5a981f-8d68-4d81-8134-7c820caaf703'
   TENANT_ID: 'd1ee9b37-cae3-4945-a777-7b8b03047391'
   USERNAME: 'dev4@ARD26.onmicrosoft.com'
