@@ -28,7 +28,6 @@ env:
   ENVIRONMENT_URL: 'https://ard26dev.crm6.dynamics.com/'
   CLIENT_ID: '7a5a981f-8d68-4d81-8134-7c820caaf703'
   TENANT_ID: 'd1ee9b37-cae3-4945-a777-7b8b03047391'
-  USERNAME: 'Dev4SP@ARD26.onmicrosoft.com'
 permissions:
   contents: write
 jobs:
