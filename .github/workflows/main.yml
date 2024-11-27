@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: TESTALM
+        default: KaviALM
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -25,7 +25,7 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://ard26dev.crm6.dynamics.com/'
+  ENVIRONMENT_URL: 'https://kavi-test.crm6.dynamics.com/'
   CLIENT_ID: '7a5a981f-8d68-4d81-8134-7c820caaf703'
   TENANT_ID: 'd1ee9b37-cae3-4945-a777-7b8b03047391'
   USERNAME: 'dev4@ARD26.onmicrosoft.com'
