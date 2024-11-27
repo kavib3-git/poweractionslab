@@ -1,5 +1,5 @@
 name: Release action
-# Call the reusable workflow release-solution-with-inputs.yml
+# Call the reusable workflow release-solution.yml
 # Release your solution to prod when you create a new release.
 
 on:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 jobs:
   Release-solution-ALMLab:
-    uses: ./release-solution.yml
+    uses: ./.github/workflows/release-solution.yml
     with:
       #You can specify the solution name here
       solution_name: TESTALM
